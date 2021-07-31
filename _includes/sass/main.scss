@@ -1,3 +1,4 @@
+
 #header {
   text-align: center;
   font-size: 18px;
@@ -59,7 +60,7 @@
 
 .parallax {
   /* The image used */
-  background-image: url("/assets/images/background.webp");
+  background-image: url("{{ curaddlink }}assets/images/background.webp");
 
   /* Set a specific height */
   min-height: 530px;
@@ -133,7 +134,7 @@ footer > div {
   height: auto;
   width: 100%;
   /* The image used */
-  background-image: url("/assets/images/background.webp");
+  background-image: url("{{ curaddlink }}assets/images/background.webp");
 
 
   /* Create the parallax scrolling effect */
