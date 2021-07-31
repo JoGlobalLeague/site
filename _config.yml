@@ -30,3 +30,5 @@ compress_html:
 webrick:
   headers:
     Cache-Control: max-age=6000
+exclude:
+  - .jekyll-cache
