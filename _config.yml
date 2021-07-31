@@ -1,0 +1,32 @@
+title: Jo Global League
+email: your-email@example.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Первая лига Heroes 3 по outcast.
+baseurl: ''
+url: http://localhost
+
+# twitter_username: jekyllrb
+# github_username:  jekyll
+
+# Build settings
+theme: minima
+markdown: kramdown
+#highlighter: pygments
+highlighter: rouge
+#excerpt_separator: "\n\r\n"
+#permalink: /:categories/:title.html
+include: ["*.ks"]
+gems:
+  - jekyll-sitemap
+  - jekyll-redirect-from
+sass:
+  sass_dir: _includes/sass
+  style: compressed
+compress_html:
+  clippings: [html, head, title, base, link, meta, style, body, article, section, nav, aside, h1, h2, h3, h4, h5, h6, hgroup, header, footer, address, p, hr, blockquote, ol, ul, dl, dt, dd, figure, figcaption, main, div, table, caption, colgroup, col, tbody, thead, tfoot, tr, td, th]
+  comments: all
+  endings: []
+  profile: false
+webrick:
+  headers:
+    Cache-Control: max-age=6000

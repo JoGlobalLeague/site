@@ -1,0 +1,256 @@
+#header {
+  text-align: center;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  width: 70%;
+  transition: 0.2s; 
+
+  line-height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  width: 100vw;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar-right {
+  float: right;
+  display: block;
+  padding-top: 15px;
+  margin-right: 25px;
+  line-height: 30px;
+}
+
+.navbar-right a {
+  margin-right: 5px;
+  width: auto;
+  height: 26px;
+  padding: 0px;
+}
+
+.content {
+  margin-top: 20px;
+  width: 800px;
+  margin: auto;
+  padding-bottom: 32px;
+  font-family: 'Open Sans',Arial,sans-serif;
+  text-shadow: 1px 1px 1px argb(0, 0, 0, 100);
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-stroke: 1px transparent;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("/assets/images/background.webp");
+
+  /* Set a specific height */
+  min-height: 530px;
+  min-width: 100%;
+  padding-top: 50px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-content: center;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  width: 400px;
+  display: block;
+  text-align: center;
+  color: #fdfdfd;
+  font-weight: 300;
+}
+
+.logo h2 {
+  font-size: 32px; 
+  margin-bottom: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.logo img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  background-color: #f7f9f8;
+}
+
+.footer {
+  vertical-align: center;
+  text-align: center;
+  padding: 16px;
+}
+
+footer {
+  color: white;
+  width: 100%;
+  background-color: #343434;
+  min-height: 40px;
+  z-index: 100;
+  bottom:0;
+}
+
+footer > div {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.tablebody {
+  padding-top: 50px;
+
+  min-height: 90vh;
+  height: auto;
+  width: 100%;
+  /* The image used */
+  background-image: url("/assets/images/background.webp");
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  justify-content: center;
+}
+
+.table {
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: auto;
+  max-width: 500px;
+
+
+}
+
+.table table {
+  text-align: left;
+  border-collapse: collapse;
+  background: rgba(44, 50, 75, 0.25);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+
+  margin: 10px;
+}
+
+.table tr > td:first-child {
+   padding-right: 90px !important;
+}
+
+.table th {
+  color: #EDB749;
+  border-bottom: 1px solid #37B5A5;
+  padding: 12px 17px;
+}
+.table td {
+  color: #CAD4D6;
+  border-bottom: 1px solid #37B5A5;
+  padding: 7px 10px;
+}
+
+
+.table tr:last-child td {
+  border-bottom: none;
+}
+.table td:last-child {
+  border-right: none;
+}
+.table tr:hover td {
+  text-decoration: underline;
+}
+
+.table tr:first-child:hover td {
+  text-decoration: none;
+}
+
+
+.matchesschedule {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  color: #f2f2f2;
+  text-align: center;
+
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: auto;
+  max-width: 600px;
+  width: 600px;
+}
+
+.match {
+  background: rgba(44, 50, 75, 0.25);
+  margin-bottom: 5px;
+  display: block;
+  width: 600px;
+  line-height: 60px;
+    justify-content: space-between;
+}
+
+.time {
+  display: inline-block;
+  width: 160px;
+  font-size: 14px;
+}
+.time-spacer {
+  display: inline-block;
+  width: 40px;
+}
+
+.match-inner {
+  display: inline-flex;
+  height: 60px;
+  line-height: 60px;
+    justify-content: space-between;
+}
+
+.team1 {
+  display: inline-block;
+  width: 100px;
+}
+.score {
+  display: inline-block;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team2 {
+  display: inline-block;
+  width: 100px;
+  align-self: right;
+}

@@ -1,0 +1,34 @@
+- id: ru
+  code: ru-ru
+  fullname: Russian
+  link: 
+  addlink: 
+
+  dateformat: "%d.%m.%Y"
+  str: 
+    footer: "Авторские права © 2021 Все права защищены"
+
+  mainmenu:
+  - text: Jo League
+    link: index.html
+  - text: Сетка
+    link: teams.html
+  - text: Расписание игр
+    link: schedule.html
+
+- id: en
+  code: en-us
+  fullname: English
+  link: en/
+  addlink: ../
+  
+  dateformat: "%Y-%m-%d"
+  str: 
+    footer: "Copyright © 2021"
+  mainmenu:
+  - text: Jo League
+    link: index.html
+  - text: Teams
+    link: teams.html
+  - text: Schedule
+    link: schedule.html

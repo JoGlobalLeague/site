@@ -1,0 +1,25 @@
+---
+layout: default
+title: Games
+curlang: en
+---
+<div class="tablebody">
+	<div class="table">
+		<table>
+			<tr>
+				<td>Player</td>
+				<td>Wins</td>
+				<td>Loses</td>
+				<td>Score</td>
+			</tr>
+		{% for item in site.data.teams %}
+			<tr>
+				<td>{{ item.player }}</td>
+				<td>{{ item.wins }}</td>
+				<td>{{ item.loses }}</td>
+				<td>{{ item.score }}</td>
+			</tr>
+		{% endfor %}
+		</table>
+	</div>
+</div>
