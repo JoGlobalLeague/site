@@ -37,14 +37,23 @@
   display: block;
   padding-top: 15px;
   margin-right: 25px;
-  line-height: 30px;
 }
 
 .navbar-right a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
   margin-right: 5px;
-  width: auto;
-  height: 26px;
+  width: 31px;
+  height: 19px;
   padding: 0px;
+}
+
+.navbar-right img {
+    min-width: 100%;
+    min-height: 100%
+    object-fit: cover;
 }
 
 .content {
