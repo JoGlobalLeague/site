@@ -13,7 +13,8 @@ linkadd: ../
 				<td>Loses</td>
 				<td>Score</td>
 			</tr>
-		{% for item in site.data.teams %}
+		{% assign teams = site.data.teams | sort: 'score' | reverse %}
+		{% for item in teams %}
 			<tr>
 				<td>{{ item.player }}</td>
 				<td>{{ item.wins }}</td>
