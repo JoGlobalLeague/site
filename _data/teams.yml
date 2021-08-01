@@ -1,19 +1,19 @@
 - player: 'Arky1'
-  wins: '10'
-  loses: '0'
-  score: '10'
+  wins: 10
+  loses: 0
+  score: 10
 
 - player: 'Arky2'
-  wins: '0'
-  loses: '10'
-  score: '1'
+  wins: 0
+  loses: 10
+  score: 1
 
 - player: 'Arky3'
-  wins: '0'
-  loses: '10'
-  score: '5'
+  wins: 0
+  loses: 10
+  score: 5
 
 - player: 'Arky4'
-  wins: '0'
-  loses: '10'
-  score: '0'
+  wins: 0
+  loses: 10
+  score: 0
