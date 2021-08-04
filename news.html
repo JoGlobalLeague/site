@@ -7,9 +7,9 @@ curlang: ru
 <div class="news">
 	<ul>
 	  {% for post in site.posts %}
-	  	{% if landat.id == post.lang %}
+	  	{% if landat.id == post.curlang %}
 		    <li>
-		      <a href="{{ post.url }}">
+		      <a href="{{ curaddlink }}{{ post.url | slice: 1,post.url.size }}">
 		      	<img width="460px" height="250px" src="{{ curaddlink }}{{ post.preview }}">
 		      	<br>
 		      	<div class="news_title_line">
