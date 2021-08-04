@@ -1,0 +1,21 @@
+---
+layout: backgrounded
+linkadd: ../../../../
+---
+{% include lang.html %}
+<div class="middlecolumn">
+	<div class="news_title_line_post">
+		<div class="news_title">
+			{{ page.title }}
+		</div>
+    	<div class="news_date">
+    		{{ page.date |  date: "%d.%m.%Y" }}
+    	</div>
+	</div>
+	<div class="news_image">
+		<img src="{{ curaddlink }}{{ page.preview }}">
+	</div>
+	<div class="middlecolumntext">
+		{{ content }}
+	</div>
+</div>

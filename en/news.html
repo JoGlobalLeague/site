@@ -1,0 +1,29 @@
+---
+layout: backgrounded
+title: News
+curlang: en
+linkadd: ../
+---
+{% include lang.html %}
+<div class="news">
+	<ul>
+	  {% for post in site.posts %}
+	  	{% if landat.id == post.lang %}
+		    <li>
+		      <a href="{{ post.url }}">
+		      	<img width="460px" height="250px" src="{{ curaddlink }}{{ post.preview }}">
+		      	<br>
+		      	<div class="news_title_line">
+		      		<div class="news_title">
+		        		{{ post.title }}
+		        	</div>
+		        	<div class="news_date">
+		        		{{ post.date |  date: "%d.%m.%Y" }}
+		        	</div>
+		    	</div>
+		  	 </a>
+		    </li>
+	    {% endif %}
+	  {% endfor %}
+	</ul>
+</div>

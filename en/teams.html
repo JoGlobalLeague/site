@@ -1,27 +1,25 @@
 ---
-layout: default
+layout: backgrounded
 title: Games
 curlang: en
 linkadd: ../
 ---
-<div class="tablebody">
-	<div class="table">
-		<table>
-			<tr>
-				<td>Player</td>
-				<td>Wins</td>
-				<td>Loses</td>
-				<td>Score</td>
-			</tr>
-		{% assign teams = site.data.teams | sort: 'score' | reverse %}
-		{% for item in teams %}
-			<tr>
-				<td>{{ item.player }}</td>
-				<td>{{ item.wins }}</td>
-				<td>{{ item.loses }}</td>
-				<td>{{ item.score }}</td>
-			</tr>
-		{% endfor %}
-		</table>
-	</div>
+<div class="table">
+	<table>
+		<tr>
+			<td>Player</td>
+			<td>Wins</td>
+			<td>Loses</td>
+			<td>Score</td>
+		</tr>
+	{% assign teams = site.data.teams | sort: 'score' | reverse %}
+	{% for item in teams %}
+		<tr>
+			<td>{{ item.player }}</td>
+			<td>{{ item.wins }}</td>
+			<td>{{ item.loses }}</td>
+			<td>{{ item.score }}</td>
+		</tr>
+	{% endfor %}
+	</table>
 </div>

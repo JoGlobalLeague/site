@@ -11,8 +11,10 @@
   mainmenu:
   - text: Jo League
     link: index.html
-  - text: Сетка
-    link: teams.html
+  - text: Новости
+    link: news.html
+  - text: Сезон 1
+    link: season1.html
   - text: Расписание игр
     link: schedule.html
 
@@ -28,6 +30,8 @@
   mainmenu:
   - text: Jo League
     link: index.html
+  - text: News
+    link: news.html
   - text: Teams
     link: teams.html
   - text: Schedule

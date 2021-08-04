@@ -1,25 +1,24 @@
 ---
-layout: default
+layout: backgrounded
 title: Сетка
+curlang: ru
 ---
-<div class="tablebody">
-	<div class="table">
-		<table>
-			<tr>
-				<td>Игрок</td>
-				<td>Побед</td>
-				<td>Поражений</td>
-				<td>Очки</td>
-			</tr>
-		{% assign teams = site.data.teams | sort: 'score' | reverse %}
-		{% for item in teams %}
-			<tr>
-				<td>{{ item.player }}</td>
-				<td>{{ item.wins }}</td>
-				<td>{{ item.loses }}</td>
-				<td>{{ item.score }}</td>
-			</tr>
-		{% endfor %}
-		</table>
-	</div>
+<div class="table">
+	<table>
+		<tr>
+			<td>Игрок</td>
+			<td>Побед</td>
+			<td>Поражений</td>
+			<td>Очки</td>
+		</tr>
+	{% assign teams = site.data.teams | sort: 'score' | reverse %}
+	{% for item in teams %}
+		<tr>
+			<td>{{ item.player }}</td>
+			<td>{{ item.wins }}</td>
+			<td>{{ item.loses }}</td>
+			<td>{{ item.score }}</td>
+		</tr>
+	{% endfor %}
+	</table>
 </div>

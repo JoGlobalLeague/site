@@ -1,39 +1,38 @@
 ---
-layout: default
+layout: backgrounded
 title: Расписание игр
+curlang: ru
 ---
-<div class="tablebody">
-	<div class="matchesschedule">
-		{% assign matches = site.data.matches | sort: 'time' %}
-		{% for item in matches %}
-		<div class="match">
-			<div class="time-spacer"></div>
-			<div class="match-inner">
-				<div class="team1">{{ item.team1 }}</div>
-				<div class="score">{{ item.score }}</div>
-				<div class="team2">{{ item.team2 }}</div>
-			</div>
-			<div class="time-spacer"></div>
-			<div class="time">
+<div class="matchesschedule">
+	{% assign matches = site.data.matches | sort: 'time' %}
+	{% for item in matches %}
+	<div class="match">
+		<div class="time-spacer"></div>
+		<div class="match-inner">
+			<div class="team1">{{ item.team1 }}</div>
+			<div class="score">{{ item.score }}</div>
+			<div class="team2">{{ item.team2 }}</div>
+		</div>
+		<div class="time-spacer"></div>
+		<div class="time">
 {% assign m = item.time | date: "%-m" %}
 {{ item.time | date: "%-d" }}
 {% case m %}
-  {% when '1' %}Января
-  {% when '2' %}Февраля
-  {% when '3' %}Марта
-  {% when '4' %}Апреля
-  {% when '5' %}Мая
-  {% when '6' %}Июня
-  {% when '7' %}Июля
-  {% when '8' %}Августа
-  {% when '9' %}Сентября
-  {% when '10' %}Октября
-  {% when '11' %}Ноября
-  {% when '12' %}Декабря
+{% when '1' %}Января
+{% when '2' %}Февраля
+{% when '3' %}Марта
+{% when '4' %}Апреля
+{% when '5' %}Мая
+{% when '6' %}Июня
+{% when '7' %}Июля
+{% when '8' %}Августа
+{% when '9' %}Сентября
+{% when '10' %}Октября
+{% when '11' %}Ноября
+{% when '12' %}Декабря
 {% endcase %}
 {{ item.time | date: "%Y, %H:%M" }}
-			</div>
 		</div>
-		{% endfor %}
 	</div>
+	{% endfor %}
 </div>

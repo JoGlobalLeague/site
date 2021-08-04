@@ -1,22 +1,20 @@
 ---
-layout: default
+layout: backgrounded
 title: Schedule
 curlang: en
 linkadd: ../
 ---
-<div class="tablebody">
-	<div class="matchesschedule">
-		{% for item in site.data.matches %}
-		<div class="match">
-			<div class="time-spacer"></div>
-			<div class="match-inner">
-				<div class="team1">{{ item.team1 }}</div>
-				<div class="score">{{ item.score }}</div>
-				<div class="team2">{{ item.team2 }}</div>
-			</div>
-			<div class="time-spacer"></div>
-			<div class="time">{{ item.time | date: "%e %B, %Y %H:%M" }}</div>
+<div class="matchesschedule">
+	{% for item in site.data.matches %}
+	<div class="match">
+		<div class="time-spacer"></div>
+		<div class="match-inner">
+			<div class="team1">{{ item.team1 }}</div>
+			<div class="score">{{ item.score }}</div>
+			<div class="team2">{{ item.team2 }}</div>
 		</div>
-		{% endfor %}
+		<div class="time-spacer"></div>
+		<div class="time">{{ item.time | date: "%e %B, %Y %H:%M" }}</div>
 	</div>
+	{% endfor %}
 </div>

@@ -38,14 +38,14 @@
 	<div class="header" id="header">
 		<div class="navbar">
 			{% for menu in landat.mainmenu %}
-				<a href="{{menu.link}}">{{menu.text}}</a>
+				<a href="{{ curaddlink }}{{landat.link}}{{menu.link}}">{{menu.text}}</a>
 			{% endfor %}
 
 			<div class="navbar-right">
-				<a href="{{ curaddlink }}{{ alternateUrl }}">
+				<a href="{{ curaddlink }}">
 					<img src="{{ curaddlink }}assets/images/langRU.jpg" class="flag" alt="RU" title="Russian">
 				</a>
-				<a href="{{ curaddlink }}en/{{ alternateUrl }}">
+				<a href="{{ curaddlink }}en/">
 					<img src="{{ curaddlink }}assets/images/langEN.jpg" class="flag" alt="EN" title="English">
 				</a>
 			</div>
