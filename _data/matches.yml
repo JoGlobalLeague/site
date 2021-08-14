@@ -1,19 +1,19 @@
-- time: 2021-08-01 22:00 +0300
-  team1: 'Arky1'
-  team2: 'Arky2'
-  score: '~'
+- time: 2021-08-14 22:00 +0300
+  team1: 'HellLight'
+  team2: 'Prapzad'
+  score: '1 : 0'
 
-- time: 2021-08-01 23:00 +0300
-  team1: 'Arky1'
-  team2: 'Arky2'
+- time: 2021-08-14 23:00 +0300
+  team1: 'StygianOne'
+  team2: 'Twaryna'
+  score: '0 : 2'
+
+- time: 2021-08-14 21:00 +0300
+  team1: 'Lexiav'
+  team2: 'ElRey'
   score: '2 : 0'
 
-- time: 2021-08-01 21:00 +0300
-  team1: 'Arky1'
-  team2: 'Arky2'
-  score: '2 : 0'
-
-- time: 2021-08-01 20:00 +0300
-  team1: 'Arky1'
-  team2: 'Arky2'
+- time: 2021-08-12 20:00 +0300
+  team1: 'garryson'
+  team2: 'twaryna'
   score: '2 : 0'
