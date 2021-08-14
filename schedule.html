@@ -4,7 +4,7 @@ title: Расписание игр
 curlang: ru
 ---
 <div class="matchesschedule">
-	{% assign matches = site.data.matches | sort: 'time' %}
+	{% assign matches = site.data.matches | sort: 'time' | reverse %}
 	{% for item in matches %}
 	<div class="match">
 		<div class="time-spacer"></div>
