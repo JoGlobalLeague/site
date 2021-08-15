@@ -370,3 +370,16 @@ footer > div {
 .news_image img {
   width: 800px;
 }
+
+
+.discord_button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  transition: 0.5s; 
+}
+
+.discord_button img {
+  width: 200px;
+}

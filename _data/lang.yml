@@ -13,6 +13,8 @@
     link: index.html
   - text: Новости
     link: news.html
+  - text: Поддержка
+    link: donations.html
   - text: Сезон 1
     link: season1.html
   - text: Расписание игр
@@ -32,6 +34,8 @@
     link: index.html
   - text: News
     link: news.html
+  - text: Donate
+    link: donations.html
   - text: Season 1
     link: season1.html
   - text: Schedule
