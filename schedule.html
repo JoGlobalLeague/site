@@ -3,10 +3,12 @@ layout: backgrounded
 title: Расписание игр
 curlang: ru
 ---
+{% include lang.html %}
 <div class="matchesschedule">
 	{% assign matches = site.data.matches | sort: 'time' | reverse %}
 	{% for item in matches %}
 	<div class="match">
+		<div class="match-type">{{ landat.str[item.type]  }}</div>
 		<div class="time-spacer"></div>
 		<div class="match-inner">
 			<div class="team1">{{ item.team1 }}</div>

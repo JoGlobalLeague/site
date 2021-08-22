@@ -2,94 +2,113 @@
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-18 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-16 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'playoff'
   
 - time: 2021-08-15 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'groupstage'
 
 - time: 2021-08-14 22:00 +0300
   team1: 'HellLight'
   team2: 'Prapzad'
   score: '2 : 0'
+  type: 'groupstage'
 
 - time: 2021-08-14 23:00 +0300
   team1: 'StygianOne'
   team2: 'Twaryna'
   score: '0 : 2'
+  type: 'groupstage'
 
 - time: 2021-08-14 21:00 +0300
   team1: 'Lexiav'
   team2: 'ElRey'
   score: '2 : 0'
+  type: 'groupstage'
 
 - time: 2021-08-12 20:00 +0300
   team1: 'garryson'
   team2: 'twaryna'
   score: '2 : 0'
+  type: 'groupstage'
   
 - time: 2021-08-14 22:00 +0300
   team1: 'HellLight'
   team2: 'Prapzad'
   score: '2 : 0'
+  type: 'groupstage'
   
 - time: 2021-08-14 22:00 +0300
   team1: 'HellLight'
   team2: 'Prapzad'
   score: '2 : 0'
+  type: 'groupstage'
   
 - time: 2021-08-14 22:00 +0300
   team1: 'HellLight'
   team2: 'Ritosux'
   score: '2 : 0'
+  type: 'groupstage'
   
 - time: 2021-08-14 22:00 +0300
   team1: 'HellLight'
   team2: 'Firetosky'
   score: '2 : 0'
+  type: 'groupstage'
   
   
 - time: 2021-08-14 22:00 +0300
   team1: 'HellLight'
   team2: 'Prapzad'
   score: '2 : 0'
+  type: 'groupstage'

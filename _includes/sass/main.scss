@@ -227,10 +227,17 @@ footer > div {
 .match {
   background: rgba(44, 50, 75, 0.25);
   margin-bottom: 5px;
-  display: block;
-  width: 600px;
+  display: inline-block;
+  width: 750px;
   line-height: 60px;
     justify-content: space-between;
+}
+
+.match-type {
+  width: 180px;
+  text-align: center;
+  display: block;
+  display: inline-block;
 }
 
 .time {

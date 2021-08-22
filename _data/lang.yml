@@ -6,6 +6,8 @@
 
   dateformat: "%d.%m.%Y"
   str: 
+    playoff: "Плей-офф"
+    groupstage: "Группа"
     footer: "Авторские права © 2021 Все права защищены"
 
   mainmenu:
@@ -20,6 +22,7 @@
   - text: Расписание игр
     link: schedule.html
 
+
 - id: en
   code: en-us
   fullname: English
@@ -28,6 +31,8 @@
   
   dateformat: "%Y-%m-%d"
   str: 
+    playoff: "Play-off"
+    groupstage: "Group Stage"
     footer: "Copyright © 2021"
   mainmenu:
   - text: Jo League

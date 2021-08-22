@@ -4,9 +4,11 @@ title: Schedule
 curlang: en
 linkadd: ../
 ---
+{% include lang.html %}
 <div class="matchesschedule">
 	{% for item in site.data.matches %}
 	<div class="match">
+		<div class="match-type">{{ landat.str[item.type]  }}</div>
 		<div class="time-spacer"></div>
 		<div class="match-inner">
 			<div class="team1">{{ item.team1 }}</div>
