@@ -6,8 +6,20 @@
   
 - time: 2021-08-18 20:00 +0300
   team1: 'garryson'
-  team2: 'twaryna'
+  team2: 'Elrey'
   score: '2 : 0'
+  type: 'groupstage'
+  
+- time: 2021-08-17 20:00 +0300
+  team1: 'garryson'
+  team2: 'Hellight'
+  score: '2 : 0'
+  type: 'groupstage'
+  
+- time: 2021-08-17 20:00 +0300
+  team1: 'garryson'
+  team2: 'Lexiav'
+  score: '0 : 2'
   type: 'groupstage'
   
 - time: 2021-08-17 20:00 +0300
@@ -18,43 +30,31 @@
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
-  team2: 'twaryna'
+  team2: 'Prapzad'
   score: '2 : 0'
   type: 'groupstage'
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
-  team2: 'twaryna'
+  team2: 'Ritosux'
   score: '2 : 0'
   type: 'groupstage'
   
 - time: 2021-08-17 20:00 +0300
   team1: 'garryson'
-  team2: 'twaryna'
-  score: '2 : 0'
-  type: 'groupstage'
-  
-- time: 2021-08-17 20:00 +0300
-  team1: 'garryson'
-  team2: 'twaryna'
-  score: '2 : 0'
-  type: 'groupstage'
-  
-- time: 2021-08-17 20:00 +0300
-  team1: 'garryson'
-  team2: 'twaryna'
+  team2: 'Fts'
   score: '2 : 0'
   type: 'groupstage'
   
 - time: 2021-08-16 20:00 +0300
   team1: 'garryson'
-  team2: 'twaryna'
+  team2: 'T1mon'
   score: '2 : 0'
   type: 'groupstage'
   
 - time: 2021-08-15 20:00 +0300
   team1: 'garryson'
-  team2: 'twaryna'
+  team2: 'StygianOne'
   score: '2 : 0'
   type: 'groupstage'
 
